@@ -60,9 +60,6 @@ SHA-256  7f0f423dc5dabb9fd79025d7e6d2688639888cfa714cca683c078bd2171ec88c
 %APPDATA%\PageSneak\settings.json
 ```
 
-> 从旧版本（曾用名 `WPSleek`）升上来的话，第一次启动会**自动把整个旧目录搬到这里**，
-> 阅读进度与全部设置原样保留，旧目录会随之消失 —— 你不需要手动做任何事。
-
 ### 支持格式
 
 `.txt`（UTF-8 / GBK 自动识别）与 `.epub`。
@@ -71,8 +68,6 @@ SHA-256  7f0f423dc5dabb9fd79025d7e6d2688639888cfa714cca683c078bd2171ec88c
 
 在设置里开关。开启后会写入注册表 `HKCU\Software\Microsoft\Windows\CurrentVersion\Run`，
 值名为 `PageSneak`。程序每次启动会自检这条记录：**只在路径失效时修复，不会动你的开关状态**。
-若你从旧版本升上来（旧值名为 `WPSleek`），启动时会被自动搬到新值名下、旧值删除，
-自启开关状态不受影响。
 
 ### 卸载
 
